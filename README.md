@@ -1,26 +1,35 @@
-# Simple Web Server with Node.js
+Simple Web Server with Node.js
+A basic web server built with Node.js http module that demonstrates routing and serves HTML pages with CSS styling.
+How to Run
 
-A basic web server for laundry service website built with Node.js.
+Ensure Node.js is installed on your system
+Navigate to the project folder in terminal
+Run command: node server.js
+Open browser and visit: http://localhost:3000
 
-## How to Run
+Routes
 
-1. Make sure Node.js is installed
-2. Open terminal in project folder
-3. Run: `node server.js`
-4. Open browser: http://localhost:3000
+/ or /home - Home page (Status 200)
+/about - About page (Status 200)
+/contact - Contact page (Status 200)
+Any other route - Custom 404 error page (Status 404)
 
-## Routes
-- `/` or `/home` - Home page
-- `/about` - About page
-- `/contact` - Contact page
-- Other routes - 404 error page
+Features
 
-## Features
-- Multiple routes handling
-- CSS styling
-- Custom 404 page
-- Contact form
-- Professional design
+Multiple route handling with proper HTTP status codes
+Modular code using helper functions
+Embedded CSS styling for all pages
+Custom 404 error page
+Request logging with timestamps
+Consistent navigation across pages
+Responsive design
 
-## Author
+Technologies Used
+
+Node.js
+HTTP module
+HTML5
+CSS3
+
+Author
 Alok Gupta
